@@ -5,7 +5,9 @@ set number
 
 " Colors
 syntax enable
-colorscheme murphy
+set background=dark
+let g:solarized_termcolors = 256  " New line!!
+colorscheme solarized
 
 " Search
 set ignorecase
